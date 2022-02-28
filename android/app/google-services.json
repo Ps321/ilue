@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "293795361373",
+    "project_id": "ilue-32fea",
+    "storage_bucket": "ilue-32fea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293795361373:android:1cf693ba54b9714e8113b4",
+        "android_client_info": {
+          "package_name": "com.example.ilue"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "293795361373-9ujgppupjvj209js7cr815cd1felv45h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFtMpwSqa3e_zXOfZuHOr1tSpWAKygUyI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "293795361373-9ujgppupjvj209js7cr815cd1felv45h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
