@@ -98,6 +98,34 @@ class _SignUpState extends State<SignUp> {
                       style: inputfieldtext(),
                       decoration: textfieldinputdecoration("Username"),
                     ),
+                      Padding(
+                        padding: EdgeInsets.all(15),
+                        child: TextField(
+                          style: TextStyle(
+                            color: Colors.white
+                          ),
+                          decoration: InputDecoration(
+                            focusedBorder: OutlineInputBorder(
+                                borderSide: BorderSide(color: Colors.purpleAccent)
+                            ),
+                            enabledBorder: OutlineInputBorder(
+                                borderSide: BorderSide(color: Colors.white)
+                            ),
+                            border: OutlineInputBorder(
+                              borderSide: BorderSide(color: Colors.white)
+                            ),
+                            labelText: 'User Name',
+                            labelStyle: TextStyle(
+                              color: Colors.white
+                            ),
+                            hintText: 'Enter Your Name ',
+                            hintStyle: TextStyle(
+                              color: Colors.white
+                            )
+                          ),
+                        ),
+                      )
+                      ,
                       TextFormField(
                         validator: (val){
                           return RegExp(
