@@ -543,7 +543,7 @@ class _ProfileUI2State extends State<ProfileUI2> {
 
 
 
-/* Emoji Keyboard
+/* Emoji Keyboard emoji_picker_flutter: ^1.1.2
 
 import 'dart:async';
 import 'dart:io';
