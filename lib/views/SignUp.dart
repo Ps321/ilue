@@ -217,3 +217,53 @@ class _SignUpState extends State<SignUp> {
     );
   }
 }
+
+
+/*
+
+bottomNavigationBar: new Theme(
+    data: Theme.of(context).copyWith(
+    // sets the background color of the `BottomNavigationBar`
+    canvasColor: Colors.black,
+    // sets the active color of the `BottomNavigationBar` if `Brightness` is light
+    primaryColor: Colors.red,
+    textTheme: Theme
+        .of(context)
+        .textTheme
+        .copyWith(caption: new TextStyle(color: Colors.yellow))), // sets the inactive color of the `BottomNavigationBar`
+    child: new BottomNavigationBar(
+/*
+
+
+ */
+      showSelectedLabels: false,
+      type: BottomNavigationBarType.shifting,
+          selectedFontSize: 20,
+      selectedItemColor: Colors.redAccent,
+          items: const <BottomNavigationBarItem>[
+            BottomNavigationBa rItem(
+              icon: Icon(Icons.message),
+              label: 'Message',
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.search),
+              label: 'Search',
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.notification_important_outlined),
+              label: 'Notification',
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.person),
+              label: 'Profile',
+            ),
+          ],
+          currentIndex: _selectedIndex1, //New
+          onTap: onItemTapped, //New
+        )
+//New
+
+        ));
+
+
+*/
